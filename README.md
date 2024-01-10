@@ -2,4 +2,6 @@
 
 This Single Page Web Application (SPA) is a game of Tic Tac Toe.
 
-Thank you to coding with adam.
+![Alt text](frontend/markdown-images/tic-tac-toe-figma-design.png)
+
+Thank you to coding with adam for video inspiration.
