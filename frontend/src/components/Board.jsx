@@ -3,7 +3,7 @@ import Tile from "./Tile";
 
 function Board() {
   return (
-    <div>
+    <div className="board">
       <Tile />
       <Tile />
       <Tile />

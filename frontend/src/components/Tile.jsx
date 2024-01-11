@@ -1,5 +1,5 @@
 function Tile() {
-  return <div>X</div>;
+  return <div className="tile">X</div>;
 }
 
 export default Tile;
