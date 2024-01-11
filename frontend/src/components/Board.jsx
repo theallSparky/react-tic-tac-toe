@@ -4,6 +4,14 @@ function Board() {
   return (
     <div>
       <Tile />
+      <Tile />
+      <Tile />
+      <Tile />
+      <Tile />
+      <Tile />
+      <Tile />
+      <Tile />
+      <Tile />
     </div>
   );
 }
