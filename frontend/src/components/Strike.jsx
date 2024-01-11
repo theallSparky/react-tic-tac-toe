@@ -1,5 +1,5 @@
 function Strike() {
-  return <div>strike</div>;
+  return <div></div>;
 }
 
 export default Strike;
