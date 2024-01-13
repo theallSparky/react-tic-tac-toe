@@ -1,5 +1,5 @@
 function Strike() {
-  return <div></div>;
+  return <div className="strike strike-diagonal-1"></div>;
 }
 
 export default Strike;
