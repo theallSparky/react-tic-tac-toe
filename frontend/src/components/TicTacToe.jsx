@@ -1,6 +1,7 @@
 import Board from "./Board";
 import { useState, useEffect } from "react";
 import GameOver from "./GameOver";
+import GameState from "./gameState";
 
 const PLAYER_X = "X";
 const PLAYER_O = "O";
