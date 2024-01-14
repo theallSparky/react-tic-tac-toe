@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 
 const PLAYER_X = "X";
 const PLAYER_O = "O";
+
 const winningCombinations = [
   //Rows
   { combo: [0, 1, 2], strikeClass: "strike-row-1" },
