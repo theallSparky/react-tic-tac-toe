@@ -1,6 +1,6 @@
 const GameState = {
   playerXWins: 0,
-  playerYWins: 1,
+  playerOWins: 1,
   draw: 2,
   inProgress: 3,
 };
