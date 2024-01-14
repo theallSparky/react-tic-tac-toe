@@ -12,7 +12,7 @@ const winningCombinations = [
   { combo: [0, 3, 6], strikeClass: "strike-column-1" },
   { combo: [1, 4, 7], strikeClass: "strike-column-2" },
   { combo: [2, 5, 8], strikeClass: "strike-column-3" },
-  //diagonals
+  //Diagonals
   { combo: [0, 4, 8], strikeClass: "strike-diagonal-1" },
   { combo: [2, 4, 6], strikeClass: "strike-diagonal-2" },
 ];
