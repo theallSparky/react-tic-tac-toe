@@ -17,8 +17,10 @@ const winningCombinations = [
   { combo: [2, 4, 6], strikeClass: "strike-diagonal-2" },
 ];
 
-function checkWinner() {
-  console.log("Check winner!");
+function checkWinner(tiles, setStrikeClass) {
+  for (const winningCombination of winningCombinations) {
+    const { combo, strikeClass } = winningCombination;
+  }
 }
 
 export const TicTacToe = () => {
@@ -40,9 +42,11 @@ export const TicTacToe = () => {
       setPlayerTurn(PLAYER_X);
     }
   };
+
   useEffect(() => {
-    checkWinner();
+    checkWinner(tiles, setStrikeClass);
   }, [tiles]);
+
   return (
     <div>
       <h1>Tic Tac Toe</h1>
