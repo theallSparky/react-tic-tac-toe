@@ -70,7 +70,7 @@ export const TicTacToe = () => {
         onTileClick={handleTileClick}
         strikeClass={strikeClass}
       />
-      <GameOver />
+      <GameOver gameState={gameState} />
     </div>
   );
 };
