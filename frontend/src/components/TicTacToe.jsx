@@ -2,6 +2,7 @@ import Board from "./Board";
 import { useState, useEffect } from "react";
 import GameOver from "./GameOver";
 import GameState from "./gameState";
+import Reset from "./Reset";
 
 const PLAYER_X = "X";
 const PLAYER_O = "O";
@@ -85,6 +86,7 @@ export const TicTacToe = () => {
         strikeClass={strikeClass}
       />
       <GameOver gameState={gameState} />
+      <Reset />
     </div>
   );
 };
