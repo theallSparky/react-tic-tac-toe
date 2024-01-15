@@ -86,7 +86,7 @@ export const TicTacToe = () => {
         strikeClass={strikeClass}
       />
       <GameOver gameState={gameState} />
-      <Reset />
+      <Reset gameState={gameState} />
     </div>
   );
 };
