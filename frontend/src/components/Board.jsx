@@ -1,3 +1,4 @@
+import Reset from "./Reset";
 import Strike from "./Strike";
 import Tile from "./Tile";
 
@@ -58,6 +59,7 @@ function Board({ tiles, onTileClick, playerTurn, strikeClass }) {
         value={tiles[8]}
       />
       <Strike strikeClass={strikeClass} />
+      <Reset />
     </div>
   );
 }
