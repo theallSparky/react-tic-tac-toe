@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import GameOver from "./GameOver";
 import GameState from "./gameState";
 import Reset from "./Reset";
+import gameOverSoundAsset from "../sounds/game_over.wav";
+import clickSoundAsset from "../sounds/click.wav";
 
 const PLAYER_X = "X";
 const PLAYER_O = "O";
