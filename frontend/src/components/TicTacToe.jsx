@@ -6,6 +6,11 @@ import Reset from "./Reset";
 import gameOverSoundAsset from "../sounds/game_over.wav";
 import clickSoundAsset from "../sounds/click.wav";
 
+const gameOverSound = new Audio(gameOverSoundAsset);
+gameOverSound.volume = 0.2; // Decreases volume to 20%
+const clickSound = new Audio(clickSoundAsset);
+clickSound.volume = 0.2; // Decreases volume to 20%
+
 const PLAYER_X = "X";
 const PLAYER_O = "O";
 
@@ -83,6 +88,12 @@ export const TicTacToe = () => {
 
   useEffect(() => {
     checkWinner(tiles, setStrikeClass, setGameState);
+  }, [tiles]);
+
+  useEffect(() => {
+    if (tiles.some((tile) => tile !== null)) {
+      clickSound.play();
+    }
   }, [tiles]);
 
   return (
