@@ -72,6 +72,10 @@ export const TicTacToe = () => {
     }
   };
 
+  const handleReset = () => {
+    console.log("Reset");
+  };
+
   useEffect(() => {
     checkWinner(tiles, setStrikeClass, setGameState);
   }, [tiles]);
@@ -86,7 +90,7 @@ export const TicTacToe = () => {
         strikeClass={strikeClass}
       />
       <GameOver gameState={gameState} />
-      <Reset gameState={gameState} />
+      <Reset gameState={gameState} onReset={handleReset} />
     </div>
   );
 };
