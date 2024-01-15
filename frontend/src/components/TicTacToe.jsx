@@ -73,7 +73,10 @@ export const TicTacToe = () => {
   };
 
   const handleReset = () => {
-    console.log("Reset");
+    setGameState(GameState.inProgress);
+    setTiles(Array(9).fill(null));
+    setPlayerTurn(PLAYER_X);
+    setStrikeClass(null);
   };
 
   useEffect(() => {
