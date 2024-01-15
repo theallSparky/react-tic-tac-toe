@@ -1,4 +1,4 @@
-import GameState from "./gameState";
+import GameState from "./GameState";
 
 function GameOver({ gameState }) {
   switch (gameState) {

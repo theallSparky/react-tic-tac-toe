@@ -1,7 +1,7 @@
 import Board from "./Board";
 import { useState, useEffect } from "react";
 import GameOver from "./GameOver";
-import GameState from "./gameState";
+import GameState from "./GameState";
 import Reset from "./Reset";
 import gameOverSoundAsset from "../sounds/game_over.wav";
 import clickSoundAsset from "../sounds/click.wav";
