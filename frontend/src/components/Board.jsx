@@ -59,7 +59,6 @@ function Board({ tiles, onTileClick, playerTurn, strikeClass }) {
         value={tiles[8]}
       />
       <Strike strikeClass={strikeClass} />
-      <Reset />
     </div>
   );
 }
